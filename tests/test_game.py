@@ -18,9 +18,9 @@ class TestGame(unittest.TestCase):
 
     def test_game_is_valid(self):
         new_game = Game()
-        new_game.grid = list('TIALUCRIC')
-        self.assertIs(new_game.is_valid('CIRCULAIT'), True)
-        self.assertEqual(new_game.grid, list('TIALUCRIC'))
+        new_game.grid = list('LYDPUZZLE')
+        self.assertIs(new_game.is_valid('PUZZLEDLY'), True)
+        self.assertEqual(new_game.grid, list('LYDPUZZLE'))
 
     def test_is_invalid(self):
         new_game = Game()
