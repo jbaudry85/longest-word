@@ -1,5 +1,5 @@
 # wsgi.py
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from game import Game
 
 app = Flask(__name__)
