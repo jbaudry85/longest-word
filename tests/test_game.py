@@ -27,4 +27,3 @@ class TestGame(unittest.TestCase):
         new_game.grid = list('TIALUCRIC')
         self.assertIs(new_game.is_valid('EVANOUIRA'), False)
         self.assertEqual(new_game.grid, list('TIALUCRIC'))
-
